@@ -24,6 +24,10 @@
         <action name="home" method="home" class="com.action.HomeAction">
         	<result name="success">/WEB-INF/jsp/home.jsp</result>
         </action>
+        
+        <action name="displayName" class="com.action.HomeAction">
+        	<result name="success">/WEB-INF/jsp/welcome.jsp</result>
+        </action>
     </package>
 
 </struts>
