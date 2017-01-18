@@ -8,9 +8,16 @@
 <title>Insert title here</title>
 </head>
 <body>
+
+
 <s:form action="displayName">
 	input name:<s:textfield name="myName"></s:textfield	><br>
+	
 	<s:submit></s:submit>
 </s:form>
+
+
+
+
 </body>
 </html>
