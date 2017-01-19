@@ -1,5 +1,7 @@
 package com.action;
 
+import java.util.Map;
+
 import com.opensymphony.xwork2.ActionSupport;
 
 public class HomeAction extends ActionSupport{
