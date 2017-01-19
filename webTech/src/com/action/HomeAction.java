@@ -7,6 +7,31 @@ public String doHome(){
 	return SUCCESS;
 }
 
+public String doRequest(){
+	return SUCCESS;
+}
+
+private String myRequest;
+
+public String getMyRequest() {
+	return myRequest;
+}
+
+public void setMyRequest(String myRequest) {
+	this.myRequest = myRequest;
+}
+
+private String myLanguage;
+
+public String getMyLanguage() {
+	return myLanguage;
+}
+
+public void setMyLanguage(String myLanguage) {
+	this.myLanguage = myLanguage;
+}
+
+
 private String myName;
 
 public String getMyName() {

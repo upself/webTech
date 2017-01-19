@@ -8,5 +8,7 @@
 </head>
 <body>
 ${myName }
+My Language: ${myLanguage }
+${myRequest }
 </body>
 </html>

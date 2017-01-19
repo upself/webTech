@@ -28,6 +28,14 @@
         <action name="displayName" class="com.action.HomeAction">
         	<result name="success">/WEB-INF/jsp/welcome.jsp</result>
         </action>
+        
+        <action name="displayLanguage" class="com.action.HomeAction">
+        	<result name="success">/WEB-INF/jsp/welcome.jsp</result>
+        </action>
+        
+        <action name="displayRequest" class="com.action.HomeAction">
+        	<result name="success">/WEB-INF/jsp/welcome.jsp</result>
+        </action>
     </package>
 
 </struts>

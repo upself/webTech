@@ -12,5 +12,13 @@
 	input name:<s:textfield name="myName"></s:textfield	><br>
 	<s:submit></s:submit>
 </s:form>
+<s:form action="displayLanguage">
+input language:<s:textfield name="myLanguage"></s:textfield>
+<s:submit></s:submit>
+</s:form>
+<s:form action="displayRequest">
+input request:<s:textfield name="myRequest"></s:textfield>
+<s:submit></s:submit>
+</s:form>
 </body>
 </html>
