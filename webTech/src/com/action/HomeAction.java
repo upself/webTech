@@ -15,6 +15,20 @@ public String doRequest(){
 
 private String myRequest;
 
+
+private String[] habit;
+
+public String[] getHabit() {
+	return habit;
+}
+
+public void setHabit(String[] habit) {
+	this.habit = habit;
+}
+
+public String doHabit(){
+	return SUCCESS;
+}
 public String getMyRequest() {
 	return myRequest;
 }
@@ -32,7 +46,6 @@ public String getMyLanguage() {
 public void setMyLanguage(String myLanguage) {
 	this.myLanguage = myLanguage;
 }
-
 
 private String myName;
 
