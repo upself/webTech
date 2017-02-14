@@ -39,6 +39,11 @@
         <action name="displayRequest" class="com.action.HomeAction">
         	<result name="success">/WEB-INF/jsp/welcome.jsp</result>
         </action>
+        
+        <action name="login" class="com.action.CounterAction">
+        	<result name="success">/WEB-INF/jsp/login.jsp</result>
+        </action>
+        
     </package>
 
 </struts>
